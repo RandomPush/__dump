@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<filter-conf>
+    <version>2018011712</version>
+    <isOpen>1</isOpen>
+    <filter-name>oppo_app_scale_list</filter-name>
+    <!--Old list-->
+    <game>
+        <PackageName>com.imangi.templerun2</PackageName>
+        <scale>1.5</scale>
+    </game>
+    <game>
+        <PackageName>com.kiloo.subwaysurf</PackageName>
+        <scale>1.5</scale>
+    </game>
+    <game>
+        <PackageName>com.netease.dhxy.nearme.gamecenter</PackageName>
+        <scale>1.3333</scale>
+    </game>
+    <game>
+        <PackageName>org.cocos2d.fishingjoy3</PackageName>
+        <scale>1.5</scale>
+    </game>
+    <game>
+        <PackageName>com.gbits.atm.nearme.gamecenter</PackageName>
+        <scale>1.3333</scale>
+    </game>
+    <game>
+        <PackageName>com.nextwave.wcc2</PackageName>
+        <scale>1.5</scale>
+    </game>
+
+    <!--new list-->
+    <game>
+        <NewPackageName>com.tencent.tmgp.sgame</NewPackageName>
+        <Newscale>1.5</Newscale>
+    </game>
+    <game>
+        <NewPackageName>com.ngame.allstar.eu</NewPackageName>
+        <Newscale>1.5</Newscale>
+    </game>
+    <game>
+        <NewPackageName>com.garena.game.kgid</NewPackageName>
+        <Newscale>1.5</Newscale>
+    </game>
+    <game>
+        <NewPackageName>com.garena.game.kges</NewPackageName>
+        <Newscale>1.5</Newscale>
+    </game>
+    <game>
+        <NewPackageName>com.garena.game.kgcn</NewPackageName>
+        <Newscale>1.5</Newscale>
+    </game>
+    <game>
+        <NewPackageName>com.garena.game.kgvntest</NewPackageName>
+        <Newscale>1.5</Newscale>
+    </game>
+    <game>
+        <NewPackageName>com.garena.game.kgsam</NewPackageName>
+        <Newscale>1.5</Newscale>
+    </game>
+    <game>
+        <NewPackageName>com.garena.game.kgvn</NewPackageName>
+        <Newscale>1.5</Newscale>
+    </game>
+    <game>
+        <NewPackageName>com.garena.game.kgth</NewPackageName>
+        <Newscale>1.5</Newscale>
+    </game>
+    <game>
+        <NewPackageName>com.netmarble.penta</NewPackageName>
+        <Newscale>1.5</Newscale>
+    </game>
+    <game>
+        <NewPackageName>com.garena.game.kgtw</NewPackageName>
+        <Newscale>1.5</Newscale>
+    </game>
+
+    <!--gift name begin-->
+    <giftopen>1</giftopen>
+    <game>
+        <giftname>com.happyelements.AndroidAnimal</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 30 60</giftpara>
+    </game><!-- #id = 2 , 60fps: 84% -->
+
+    <!-- this game will remove from white list bug:1889074 app start slow 2543.33ms
+    <game>
+        <giftname>com.mfp.jelly.oppo</giftname>
+        <giftpara>0x13 0x00 0.50 0.69 0.66 30 60</giftpara>
+    </game>
+    -->
+    <!-- #id = 7 , 60fps: 72.48% -->
+
+    <game>
+        <giftname>com.brianbaek.popstar</giftname>
+        <giftpara>0x1b 0x05 0.5 0.32 0.48 30 60</giftpara>
+    </game><!-- #id = 22 , 60fps: 73.13% -->
+
+    <game>
+        <giftname>wb.gc.xmxx.zxb</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 30 60</giftpara>
+    </game><!-- #id = 24 , 60fps: 88.87% -->
+
+    <game>
+        <giftname>com.carrot.iceworld</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.rovio.angrybirds.op</giftname>
+        <giftpara>0x13 0x0c 0.5 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.ty.fishing.nearme.gamecenter</giftname>
+        <giftpara>0x1b 0x05 0.50 0.50 0.53 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.jiami.quickmj.nearme.gamecenter</giftname>
+        <giftpara>0x13 0x00 0.46 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.tencent.qqgame.xq</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.ustwo.monumentvalleyzz</giftname>
+        <giftpara>0x1b 0x05 0.5 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.teayelp.whereareyou</giftname>
+        <giftpara>0x1b 0x01 0.56 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.sparklingsociety.cias.oppo</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.maoxian.myzoo</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.scmjzrb.nearme.gamecenter</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.zengame.ttmjscb.nearme.gamecenter</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.k7k7.shengjihd.nearme.gamecenter</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.JohnCullen.loop</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.minus.lovershouse</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 45 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.esenthel.rts</giftname>
+        <giftpara>0x13 0x00 0.20 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.wedobest.xiangqi.nearme.gamecenter</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.tencent.game.SSGame</giftname>
+        <giftpara>0x1b 0x01 0.50 0.60 0.70 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.zzlt.pet.oppo</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.sinyee.babybus.duibi</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.arthisoft.princessnailart</giftname>
+        <giftpara>0x13 0x00 0.6 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.cdbabyjoy.pinyin</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.outfit7.mytalkingtomfree.nearme.gamecenter</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.east2west.monzo.nearme.gamecenter</giftname>
+        <giftpara>0x13 0x00 0.5 0.32 0.48 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.supercell.clashofclans.nearme.gamecenter</giftname>
+        <giftpara>0x13 0x04 0.75 0.99 0.99 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.supercell.clashofclans</giftname>
+        <giftpara>0x13 0x04 0.75 0.99 0.99 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.supercell.clashroyale.nearme.gamecenter</giftname>
+        <giftpara>0x13 0x04 0.75 0.99 0.99 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.supercell.clashroyale</giftname>
+        <giftpara>0x13 0x04 0.75 0.99 0.99 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.supercell.boombeach.nearme.gamecenter</giftname>
+        <giftpara>0x13 0x04 0.75 0.99 0.99 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.supercell.boombeach</giftname>
+        <giftpara>0x13 0x04 0.75 0.99 0.99 30 60</giftpara>
+    </game>
+
+    <game>
+        <giftname>com.pape.nuannew.nearme.gamecenter</giftname>
+        <giftpara>0x13 0x00 0.53 0.36 0.36 30 60</giftpara>
+    </game>
+
+    <!-- this game no significant effect
+    <game>
+        <giftname>com.kiloo.subwaysurf</giftname>
+        <giftpara>0x13 0x00 0.01 0.01 0.01 30 60</giftpara>
+    </game>
+    -->
+    <!--(35 games add)gift name end-->
+    <ReduceBrightnessPackage>com.power.dapengeducation</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.tencent.tmgp.speedmobile</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.tencent.af</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.miHoYo.bh3.nearme.gamecenter</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.pwrd.smdl</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.happyelements.AndroidAnimal</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.tencent.mm</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.tencent.mobileqq</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.sina.weibo</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.taobao.taobao</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.heytap.browser</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.ss.android.article.news</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.android.incallui</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.kugou.android</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.tencent.karaoke</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.UCMobile</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.tencent.mtt</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.baidu.searchbox</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.baidu.BaiduMap</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.autonavi.minimap</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.tencent.map</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.sogou.map.android.maps</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.autonavi.cmccmap</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.ss.android.ugc.aweme</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.smile.gifmaker</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.ss.android.article.video</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.wodidashi.paint</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.coloros.yoli</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.heytap.yoli</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.tencent.weishi</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.baidu.minivideo</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.jm.video</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.meitu.meipaimv</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.tudou.android</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.bokecc.dance</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>tv.yixia.bobo</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.tencent.firevideo</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>cn.cntv</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.pplive.androidphone.sport</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.hupu.games</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>android.zhibo8</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>org.fungo.fungoliveallstar</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.dongqiudi.news</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>org.fungo.fungolive</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.tencent.nbagametime</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.tencent.tv.qie</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.duowan.kiwi</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>air.tv.douyu.android</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.tencent.qgame</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.yy.huyaassist4game</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.gameabc.zhanqiAndroid</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.tencent.liveassistant</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.naver.vapp</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.king.candycrushsaga</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.supercell.clashofclans</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.dts.freefireth</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>jp.konami.pesam</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>om.fingersoft.hcr2</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>om.mobile.legends</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.picsart.studio</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.tencent.ig</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.playrix.homescapes</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.netmarble.sknightsgb</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.fgol.HungrySharkEvolution</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.chillingo.robberybobfree.android.row</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.youmusic.magictiles</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.ea.gp.nbamobile</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.shootinggames.sniper3d.assassin</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.bubadu.bubbu</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.forthblue.pool</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.gta.grandtheftauto.sanandreas.codes</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.ChillyRoom.DungeonShooter</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.fungames.blockcraft</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.pixonic.wwr</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.kit.durangoguides</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.eg.android.AlipayGphone</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.android.calculator2</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.sankuai.meituan</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.coloros.alarmclock</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.android.mms</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>tv.danmaku.bili</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.xunmeng.pinduoduo</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.oppo.book</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.netease.cloudmusic</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>cn.xuexi.android</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.tencent.news</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.kuaishou.nebula</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.ss.android.article.lite</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.taobao.idlefish</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.hunting.matrix_callershow</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.ss.android.ugc.live</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.immomo.momo</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.sup.android.superb</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.babycloud.hanju</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.kmxs.reader</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.le123.ysdq</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.tencent.qqmusic</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.nearme.instant.platform</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.ximalaya.ting.android</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>org.xianliao</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.hunantv.imgo.activity</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.tencent.weread</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>cn.xiaochuankeji.zuiyouLite</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.jingdong.app.mall</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.nearme.note</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.sdu.didi.gsui</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.achievo.vipshop</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.jifen.qukan</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.lechuan.midunovel</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>cn.xiaochuankeji.tieba</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>cn.soulapp.android</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.xingin.xhs</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.coloros.weather</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.qq.reader</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.baidu.haokan</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.tencent.radio</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.ztgame.bob</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.ushaqi.zhuishushenqi.adfree</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.baidu.netdisk</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.oppo.reader</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.google.android.youtube</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.tencent.qt.qtl</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.hipu.yidian</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.xunlei.downloadprovider</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.snda.wifilocating</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.duowan.mobile</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.baidu.searchbox.lite</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.zhihu.android</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.taobao.qianniu</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.netease.newsreader.activity</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.oppo.quicksearchbox</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.faloo.BookReader4Android</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.alibaba.android.rimet</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.ushaqi.zhuishushenqi</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.coloros.speechassist</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.qidian.QDReader</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.facebook.katana</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.sankuai.meituan.dispatch.homebrew</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.oppo.market</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.sdu.didi.psnger</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.quark.browser</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.chaozh.iReader.dj</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.chaozh.iReaderFree</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.chaoxing.mobile</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.baidu.tieba</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.jjwxc.reader</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.lechuan.mdwz</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>cn.wps.moffice_eng</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.handsgo.jiakao.android</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.tencent.wework</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.lemon.faceu</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>cn.kuwo.player</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.meitu.meiyancamera</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.sohu.sohuvideo</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.wuba</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>me.ele</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.tadu.read</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.qihoo.haosou.subscribe.vertical.book</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.cubic.autohome</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.zsqbmfxs.novel</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.hunting.matrix_showcaller</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.ss.android.ugc.aweme.lite</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.tencent.qqgame.xq</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.ucmobile.lite</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.duoduo.child.story</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.android.chrome</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.android.calendar</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.mt.mtxx.mtxx</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.oppo.ohome</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.zhongduomei.rrmj.society</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.sankuai.meituan.takeoutnew</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.soft.blued</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.aikan</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.ophone.reader.ui</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.oppo.music</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.qihoo.browser</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.kuaikan.comic</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.facebook.orca</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.hsh.cqyzs.nearme.gamecenter</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.biquge.ebook.app</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.tencent.tmgp.wbqp</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.c2vl.kgamebox</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.baitian.alx.alxsy.nearme.gamecenter</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.nd.android.pandareader</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>fm.xiami.main</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.tmall.wireless</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.imaginer.yunji</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.coloros.phonemanager</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.yuewen.cooperate.reader.free</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.baidu.homework</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.ss.android.auto</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.zengame.zrttddz.nearme.gamecenter</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.ledou.mhhy.nearme.gamecenter</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.p1.mobile.putong</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.tencent.tim</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.xunrui.duokai_box</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.chinamworld.bocmbci</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.tuoluo.world</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.tencent.reading</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.wuba.zhuanzhuan</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.mianfeizs.book</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.jxedt</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.tencent.qqsports</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.mogujie</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>cn.vcinema.cinema</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.shizhuang.duapp</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.gudianbiquge.ebook.app</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.netease.l10.nearme.gamecenter</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.tencent.qgame</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.netease.my.nearme.gamecenter</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.videogo</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>ctrip.android.view</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.campmobile.snowcamera</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.coloros.soundrecorder</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.netease.my</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.lingan.seeyou</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.coloros.filemanager</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.cmcc.cmvideo</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.mampod.ergedd</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.lalamove.huolala.driver</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.komoxo.octopusime</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.mianfeia.book</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.newbiquge.red.bookapp</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.alibaba.wireless</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.lofter.android</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>cc.quanben.novel</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.xiwei.logistics</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.wifi.reader.free</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.xtc.watch</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.chinamworld.main</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.esbook.reader</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.wifi.reader</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.mobikeeper.sjgj</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.dianping.v1</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.cootek.smartdialer</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.biquge.book.noverls</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.sogou.novel</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.hexin.plat.android</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.hhmss.verticalsearch</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.sankuai.meituan.dispatch.crowdsource</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.jiongji.andriod.card</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.shoujiduoduo.ringtone</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.suning.mobile.ebuy</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.xiaoshuodaquan.ebook.app</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>cn.wlantv.kznk</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.xiaoshuo.yueluread</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>kuaidu.xiaoshuo.yueduqi</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.excelliance.dualaid</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>c.l.a</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>cn.weli.story</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.sina.news</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.tencent.news.lite</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.ifeng.news2</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.coohua.xinwenzhuan</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.cashtoutiao</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.sina.weibolite</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.immomo.mread</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.baidu.yuedu</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.naver.linewebtoon.cn</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.weibo.comic</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.comic.manhuatai</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.qzone</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.baidu.iknow</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.douban.frodo</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.skyplatanus.crucio</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.yr.huajian</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.aides.brother.brotheraides</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>org.mozilla.firefox</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.netease.mail</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.tencent.androidqqmail</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>cn.cj.pe</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.yiyou.ga</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>io.liuliu.music</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.zhenai.android</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.ifreetalk.ftalk</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>cn.neoclub.uki</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.wodi.who</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.qingshu520.chat</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.xiaoenai.app</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.hzsj.dsjy</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.kuihua.wxsk</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.welove520.qqsweet</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.yunzhan.liaobei</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.kuihua.wxfs1</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.wzf.fan</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.tencent.qqlite</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.mosheng</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>im.chaoxin</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.luojilab.player</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.mengtuiapp.mall</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.cainiao.wireless</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.husor.beidian</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.jf.lkrj</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.immomo.momo</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>cn.xiaochuankeji.tieba</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.qq.reader</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.baidu.searchbox.lite</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.qihoo.haosou.subscribe.vertical.book</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.chaozh.iReader.dj</ReduceBrightnessPackage>
+    <ReduceBrightnessPackage>com.netease.cloudmusic</ReduceBrightnessPackage>
+    <ReduceBrightnessuse>0</ReduceBrightnessuse>
+    <ReduceBrightnesstemp1>492</ReduceBrightnesstemp1>
+    <ReduceBrightnesstemp2>2500</ReduceBrightnesstemp2>
+    <ReduceBrightnesstemp3>2870</ReduceBrightnesstemp3>
+    <ReduceBrightnesstemp4>3562</ReduceBrightnesstemp4>
+    <ReduceBrightnessexitRate>2</ReduceBrightnessexitRate>
+    <ReduceBrightnessstaticRate>1.5</ReduceBrightnessstaticRate>
+    <ReduceBrightnessdynamicRate>15</ReduceBrightnessdynamicRate>
+    <ReduceBrightnessslowRate>600</ReduceBrightnessslowRate>
+    <ReduceBrightnessy1>0.05</ReduceBrightnessy1>
+    <ReduceBrightnessy2>0.1</ReduceBrightnessy2>
+    <ReduceBrightnessy3>0.3</ReduceBrightnessy3>
+    <ReduceBrightnessy4>2</ReduceBrightnessy4>
+    <ReduceBrightnessy5>0.2</ReduceBrightnessy5>
+</filter-conf>
+

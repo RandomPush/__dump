@@ -1,0 +1,14 @@
+# full_oppo6765-user 10 QP1A.190711.020 bedd37e98646d3a1 release-keys
+- manufacturer: 
+- platform: mt6765
+- codename: 
+- flavor: full_oppo6765-user
+- release: 10
+- id: QP1A.190711.020
+- incremental: 
+- tags: release-keys
+- fingerprint: 
+- is_ab: false
+- brand: 
+- branch: full_oppo6765-user-10-QP1A.190711.020-bedd37e98646d3a1-release-keys
+- repo: __dump

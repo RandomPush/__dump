@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<res>
+    <default_wallpaper_name>inlay_wallpaper71</default_wallpaper_name>
+    <default_lock_wallpaper_name>inlay_wallpaper71</default_lock_wallpaper_name>
+    <versionCode>700025</versionCode>
+    <wallpaper_file_name_array>
+        <item>inlay_wallpaper0</item>
+        <item>inlay_wallpaper1</item>
+        <item>inlay_wallpaper2</item>
+        <item>inlay_wallpaper71</item>
+        <item>inlay_wallpaper72</item>
+        <item>inlay_wallpaper74</item>
+        <item>inlay_wallpaper75</item>
+        <item>inlay_wallpaper76</item>
+        <item>inlay_wallpaper78</item>
+        <item>inlay_wallpaper82</item>
+        <item>inlay_wallpaper84</item>
+    </wallpaper_file_name_array>
+    <wallpaper_en_name_array>
+        <item>Stained Glass</item>
+        <item>Texture</item>
+        <item>Lucency</item>
+        <item>Mountain</item>
+        <item>Snow Mountain</item>
+        <item>Cyan Texture</item>
+        <item>Color</item>
+        <item>Blue Stream</item>
+        <item>Dark Blue</item>
+        <item>Time and Space</item>
+        <item>Green Beach</item>
+    </wallpaper_en_name_array>
+    <wallpaper_zh_name_array>
+        <item>彩色玻璃</item>
+        <item>质感</item>
+        <item>透明</item>
+        <item>水墨山色</item>
+        <item>青绿沙滩</item>
+        <item>青色纹理</item>
+        <item>彩色</item>
+        <item>蓝色流体</item>
+        <item>深蓝</item>
+        <item>时空</item>
+        <item>青绿沙滩</item>
+    </wallpaper_zh_name_array>
+    <wallpaper_zh_rTw_name_array>
+        <item>彩色玻璃</item>
+        <item>質感</item>
+        <item>透明</item>
+        <item>水墨山色</item>
+        <item>青綠沙灘</item>
+        <item>青色紋理</item>
+        <item>彩色</item>
+        <item>藍色流體</item>
+        <item>深藍</item>
+        <item>時空</item>
+        <item>青綠沙灘</item>
+    </wallpaper_zh_rTw_name_array>
+
+    <wallpaper_file_name_array_id>
+        <item>inlay_wallpaper_id</item>
+        <item>inlay_wallpaper0</item>
+        <item>inlay_wallpaper1</item>
+        <item>inlay_wallpaper2</item>
+        <item>inlay_wallpaper71</item>
+        <item>inlay_wallpaper72</item>
+        <item>inlay_wallpaper74</item>
+        <item>inlay_wallpaper75</item>
+        <item>inlay_wallpaper76</item>
+        <item>inlay_wallpaper78</item>
+        <item>inlay_wallpaper82</item>
+        <item>inlay_wallpaper84</item>
+    </wallpaper_file_name_array_id>
+    <wallpaper_en_name_array_id>
+        <item>Instant Flow</item>
+        <item>Stained Glass</item>
+        <item>Texture</item>
+        <item>Lucency</item>
+        <item>Mountain</item>
+        <item>Snow Mountain</item>
+        <item>Cyan Texture</item>
+        <item>Color</item>
+        <item>Blue Stream</item>
+        <item>Dark Blue</item>
+        <item>Time and Space</item>
+        <item>Green Beach</item>
+    </wallpaper_en_name_array_id>
+
+    <!-- operator telcel -->
+    <wallpaper_file_name_array_telcel>
+        <item>operator_telcel_01</item>
+        <item>operator_telcel_02</item>
+        <item>operator_telcel_03</item>
+        <item>operator_telcel_04</item>
+        <item>operator_telcel_05</item>
+        <item>operator_telcel_06</item>
+        <item>operator_telcel_07</item>
+        <item>operator_telcel_08</item>
+        <item>operator_telcel_09</item>
+        <item>operator_telcel_10</item>
+        <item>operator_telcel_11</item>
+        <item>inlay_wallpaper71</item>
+        <item>inlay_wallpaper72</item>
+        <item>inlay_wallpaper74</item>
+        <item>inlay_wallpaper75</item>
+        <item>inlay_wallpaper76</item>
+        <item>inlay_wallpaper78</item>
+        <item>inlay_wallpaper82</item>
+        <item>inlay_wallpaper84</item>
+    </wallpaper_file_name_array_telcel>
+    <wallpaper_en_name_array_telcel>
+        <item>operator_telcel_01</item>
+        <item>operator_telcel_02</item>
+        <item>operator_telcel_03</item>
+        <item>operator_telcel_04</item>
+        <item>operator_telcel_05</item>
+        <item>operator_telcel_06</item>
+        <item>operator_telcel_07</item>
+        <item>operator_telcel_08</item>
+        <item>operator_telcel_09</item>
+        <item>operator_telcel_10</item>
+        <item>operator_telcel_11</item>
+        <item>Mountain</item>
+        <item>Snow Mountain</item>
+        <item>Cyan Texture</item>
+        <item>Color</item>
+        <item>Blue Stream</item>
+        <item>Dark Blue</item>
+        <item>Time and Space</item>
+        <item>Green Beach</item>
+    </wallpaper_en_name_array_telcel>
+
+    <!-- operator vodacom -->
+    <wallpaper_file_name_array_vodacom>
+        <item>operator_vodacom_1</item>
+        <item>operator_vodacom_2</item>
+        <item>operator_vodacom_3</item>
+        <item>inlay_wallpaper71</item>
+        <item>inlay_wallpaper72</item>
+        <item>inlay_wallpaper74</item>
+        <item>inlay_wallpaper75</item>
+        <item>inlay_wallpaper76</item>
+        <item>inlay_wallpaper78</item>
+        <item>inlay_wallpaper82</item>
+        <item>inlay_wallpaper84</item>
+    </wallpaper_file_name_array_vodacom>
+    <wallpaper_en_name_array_vodacom>
+        <item>operator_vodacom_1</item>
+        <item>operator_vodacom_2</item>
+        <item>operator_vodacom_3</item>
+        <item>Mountain</item>
+        <item>Snow Mountain</item>
+        <item>Cyan Texture</item>
+        <item>Color</item>
+        <item>Blue Stream</item>
+        <item>Dark Blue</item>
+        <item>Time and Space</item>
+        <item>Green Beach</item>
+    </wallpaper_en_name_array_vodacom>
+
+    <!-- operator claro -->
+    <wallpaper_file_name_array_claro>
+        <item>operator_claro_1</item>
+        <item>operator_claro_2</item>
+        <item>operator_claro_3</item>
+        <item>operator_claro_4</item>
+        <item>operator_claro_5</item>
+        <item>inlay_wallpaper71</item>
+        <item>inlay_wallpaper72</item>
+        <item>inlay_wallpaper74</item>
+        <item>inlay_wallpaper75</item>
+        <item>inlay_wallpaper76</item>
+        <item>inlay_wallpaper78</item>
+        <item>inlay_wallpaper82</item>
+        <item>inlay_wallpaper84</item>
+    </wallpaper_file_name_array_claro>
+    <wallpaper_en_name_array_claro>
+        <item>operator_claro_1</item>
+        <item>operator_claro_2</item>
+        <item>operator_claro_3</item>
+        <item>operator_claro_4</item>
+        <item>operator_claro_5</item>
+        <item>Mountain</item>
+        <item>Snow Mountain</item>
+        <item>Cyan Texture</item>
+        <item>Color</item>
+        <item>Blue Stream</item>
+        <item>Dark Blue</item>
+        <item>Time and Space</item>
+        <item>Green Beach</item>
+    </wallpaper_en_name_array_claro>
+</res>

@@ -1,0 +1,7 @@
+<!-- This file is used by Multimedia Daemon Service (YaJun.li).  DO NOT MODIFY. -->
+<permissions>
+    <!--Chenyang.Zhang@RM.MM.AuioServer.Policy, 2019/12/16, Add for Inner Record -->
+    <feature name="oppo.multimedia.internal.record" />
+    <!-- Chenyang.Zhang@RM.MM.AudioServer.Effect, 2019/11/28, Add for dirac a2dp effect -->
+    <feature name="oppo.multimedia.dirac.a2dp.support" />
+</permissions>
