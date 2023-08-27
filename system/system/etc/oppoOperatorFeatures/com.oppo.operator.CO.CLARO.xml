@@ -1,0 +1,24 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+    <feature name="oppo.phone.display.vowifi.icon.active" />
+    <feature name="oppo.phone.display.volte.vowifi" />
+    <feature name="oppo.simsettings.show.wificall.in.controlcenter" />
+    <feature name="oppo.commcenter.phone.clear.code.claro" />
+    <feature name="oppo.contacts.calllog.show.volte" />
+    <feature name="oppo.contacts.calllog.show.vowifi" />
+    <feature name="oppo.write.calllog.volte" />
+    <feature name="oppo.write.calllog.vowifi" />
+    <feature name="oppo.phone.hide.hd.icon" />
+    <feature name="com.google.android.contacts.feature.SIM_WRITE" />
+    <feature name="com.android.providers.contacts.is_need_sdn_contacts" />
+    <feature name="oppo.contacts.show.sdn.service.number" />
+  <feature name="oppo.letter.vowifi.icon" />
+  <feature name="coloros.customize.statusbar.g_in_gprs" />
+    <feature name="oppo.launcher.drawer_mode.default" />
+    <feature name="oppo.launcher.overlay.google_assistant" />
+    <feature name="oppo.launcher.draw_mode.notload.no_position_app" />
+    <feature name="oppo.bootreg.default.close.pictorial" />
+    <feature name="oppo.customize.weather.no_out_link" />
+    <feature name="oppo.oppo_disaplay_calculate_data_traffic.def.off" />
+    <feature name="oppo.letter.vowifi.icon" />
+</permissions>

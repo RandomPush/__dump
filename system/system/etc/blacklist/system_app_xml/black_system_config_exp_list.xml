@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<apk_config>
+  <!--该xml适用于外销OS system下的应用内置，为黑名单，package name为包名，project、country、operator分别表示该应用适用于哪些项目、国家、运营商，示例如下-->
+  <!--package name="com.example.test" project="17001,17002" country="common" operator="common" 表明要system下包名为com.example.test的应用，不在17001和17002两个项目内置-->
+  <!--package name="com.example.test" project="common" country="-IN,-TW" operator="common" 表明要system下包名为com.example.test的应用，只在台湾和印度区域内置，负号表示非,common表示通用-->
+  <!--package name="com.example.test" project="17001,17002" country="-IN,-TW" operator="common" 表明要system下包名为com.example.test的应用，不在17001和17002两个项目内置，也不在除台湾和印度之外的区域内置-->
+  <!--注：如果应用已经不再内置了请及时去掉或注释掉名单，否则会导致产线911过不了-->
+
+  <!-- HeyTap浏览器内置：印度、印尼、越南、泰国 -->
+  <package name="com.heytap.browser" project="common" country="-IN,-ID,-VN,-TH" operator="common" />
+  <!-- HeyTap浏览器需要排除的项目 -->
+  <package name="com.heytap.browser" project="17109,17129,17139" country="common" operator="common" />
+  <!-- OPPOService内置:只支持27个区域 -->
+  <package name="com.coloros.aftersalesservice" project="common" country="-MY,-PH,-ID,-TH,-KH,-TW,-SG,-IN,-MM,-PK,-BD,-LK,-NP,-KE,-EG,-MA,-AE,-DZ,-TN,-SA,-NZ,-AU,-FR,-NL,-PL,-RU,-KZ" operator="common" />
+  <!-- 软件商店新包名内置：印度、印尼、越南、台湾、泰国、菲律宾、马来西亚 -->
+  <package name="com.heytap.market" project="common" country="-IN,-ID,-VN,-TW,-TH,-PH,-MY" operator="common" />
+  <!-- 游戏中心内置：印度、印尼、越南、台湾、泰国、菲律宾、马来西亚 -->
+  <package name="com.nearme.gamecenter" project="common" country="-IN,-ID,-VN,-TW,-TH,-PH,-MY" operator="common" />
+  <!-- 外销云服务内置：印度、印尼、越南、泰国、马来西亚、菲律宾、柬埔寨、新加坡、台湾、日本 -->
+  <package name="com.heytap.cloud" project="common" country="-IN,-ID,-VN,-TH,-MY,-PH,-KH,-SG,-TW,-JP" operator="common" />
+  <!-- 海外主题商店不内置墨西哥Telcel运营商 -->
+  <package name="com.heytap.themestore" project="common" country="MX" operator="TELCEL" />
+  <!-- 海外主题商店不内置巴西、哥伦比亚、智利 -->
+  <package name="com.heytap.themestore" project="common" country="BR,CO,CL" operator="common" />
+  <!-- 国际上网 外销内置：印度、印尼、台湾、泰国、菲律宾、马来西亚-->
+  <package name="com.redteamobile.roaming" project="common" country="-IN,-ID,-TW,-TH,-PH,-MY" operator="common" />
+  <!-- 外销使用技巧内置：印度 -->
+  <package name="com.coloros.operationtips" project="common" country="-IN" operator="common" lightOS="false" />
+  <!-- 海外heytap锁屏杂志不内置欧盟区域、俄罗斯区域 哈萨克斯坦、巴西-->
+  <package name="com.heytap.pictorial" project="common" country="EUEX,RU,KZ,BR" operator="common" />
+  <!-- Juhong.Lu@ROM.SysApp, 2019-10-31 : add for phonemanager to disable clean and antivirus for europe -->
+  <package name="com.coloros.safesdkproxy" project="common" country="EUEX,JP,IN" operator="common" />
+  <!-- 安全支付内置：欧盟区域不内置-->
+  <package name="com.nearme.atlas" project="common" country="EUEX" operator="common" />
+  <!-- 短信不内置外销 VODAFONE_EEA运营商版本 -->
+  <package name="com.android.mms" project="common" country="common" operator="VODAFONE_EEA" />
+  <!-- 驾驶不内置外销 VODAFONE_EEA运营商版本 -->
+  <package name="com.coloros.smartdrive" project="common" country="common" operator="VODAFONE_EEA" />
+  <!-- InCallUI不内置外销 VODAFONE_EEA运营商版本 -->
+  <package name="com.android.incallui" project="common" country="common" operator="VODAFONE_EEA" />
+  <!-- 电话本不内置 VODAFONE_EEA运营商版本 -->
+  <package name="com.android.contacts" project="common" country="common" operator="VODAFONE_EEA" />
+  <!--vodafone_eea版本不内置OPPO 应用 -->
+  <package name="com.coloros.blacklist" project="common" country="common" operator="VODAFONE_EEA" />
+  <package name="com.coloros.blacklistapp" project="common" country="common" operator="VODAFONE_EEA" />
+  <package name="com.ted.number" project="common" country="common" operator="VODAFONE_EEA" />
+  <package name="com.coloros.phonenoareainquire" project="common" country="common" operator="VODAFONE_EEA" />
+  <!-- 短信不内置外销ALTICE运营商版本 -->
+  <package name="com.android.mms" project="common" country="common" operator="ALTICE" />
+  <!-- 音乐派对西欧区域不内置 -->
+  <package name="com.coloros.musiclink" project="common" country="EUEX" operator="common" />
+  <!-- 音乐派对不内置外销JP softbank运营商版本 -->
+  <package name="com.coloros.musiclink" project="common" country="JP" operator="SOFTBANK" />
+  <!-- 音乐派对不内置外销JP softbank子品牌YMOBILE版本 -->
+  <package name="com.coloros.musiclink" project="common" country="JP" operator="YMOBILE" />
+  <!--FM不内置19354,19501,19521,19361,19362的欧盟区域-->
+  <package name="com.android.fmradio" project="19354,19501,19521,19361,19362, 19573, 19579" country="EUEX" operator="common" />
+  <!--FM不内置20271,20273,2027A,2027B,2027C,2027D的法国和意大利区域-->
+  <package name="com.android.fmradio" project="20271,20273,2027A,2027B,2027C,2027D" country="EUEX" operator="common"/>
+  <!--FM不内置19354,19501,19521,19361,19362的欧盟区域-->
+  <package name="com.caf.fmradio" project="19354,19501,19521,19361,19362, 19573, 19579" country="EUEX" operator="common"/>
+  <package name="com.caf.fmradio" project="20224,20229" country="EUEX" operator="common" euexcountry="-TR"/>
+  <!-- Nfc不在19131/19132/19365/19368/19567/19568/20001/20002/20041/20042/20075/20076内置 -->
+  <package name="com.android.nfc" project="19131,19132,19365,19368,19567,19568,20001,20002,20041,20042,20075,20076" country="common" operator="common" />
+  <!-- 手机搬家的两个apk不内置外销JP softbank运营商版本 -->
+  <package name="com.coloros.backuprestore" project="common" country="JP" operator="SOFTBANK" />
+  <!-- 短信不内置外销Telefonica下英国O2，德国O2，西班牙MOVISTAR运营商版本 -->
+  <package name="com.android.mms" project="19361,19362,19501,19521,19573" country="EUEX" operator="O2" euexcountry="GB" />
+  <package name="com.android.mms" project="common" country="EUEX" operator="O2" euexcountry="DE" />
+  <package name="com.android.mms" project="19362,19501,19521,19573" country="EUEX" operator="MOVISTAR" euexcountry="ES" />
+  <!-- 短信不内置外销Orange下西班牙、法国orange子网运营商版本 -->
+  <package name="com.android.mms" project="19362,19501,19521,19573" country="EUEX" operator="ORANGE" euexcountry="ES" />
+  <package name="com.android.mms" project="19362,19501,19521,19573" country="EUEX" operator="ORANGE" euexcountry="FR" />
+  <!-- 短信不内置外销CPW下英国版本 -->
+  <package name="com.android.mms" project="common" country="EUEX" operator="CPW" euexcountry="GB" />
+  <!-- 短信不内置外销墨西哥Telcel运营商版本 -->
+  <package name="com.android.mms" project="common" country="MX" operator="TELCEL" />
+  <!-- 短信不内置外销JP softbank运营商版本 -->
+  <package name="com.android.mms" project="common" country="JP" operator="SOFTBANK" />
+  <!-- 电话本不内置外销Orange下西班牙、法国orange子网运营商版本 -->
+  <package name="com.android.contacts" project="19362,19501,19521,19573" country="EUEX" operator="ORANGE" euexcountry="ES" />
+  <package name="com.android.contacts" project="19362,19501,19521,19573" country="EUEX" operator="ORANGE" euexcountry="FR" />
+  <!--orange版本不内置OPPO 应用 -->
+  <package name="com.coloros.blacklist" project="19362,19501,19521,19573" country="EUEX" operator="ORANGE" euexcountry="ES" />
+  <package name="com.coloros.blacklist" project="19362,19501,19521,19573" country="EUEX" operator="ORANGE" euexcountry="FR" />
+  <package name="com.coloros.blacklistapp" project="19362,19501,19521,19573" country="EUEX" operator="ORANGE" euexcountry="ES" />
+  <package name="com.coloros.blacklistapp" project="19362,19501,19521,19573" country="EUEX" operator="ORANGE" euexcountry="FR" />
+  <package name="com.ted.number" project="19362,19501,19521,19573" country="EUEX" operator="ORANGE" euexcountry="ES" />
+  <package name="com.ted.number" project="19362,19501,19521,19573" country="EUEX" operator="ORANGE" euexcountry="FR" />
+  <package name="com.coloros.phonenoareainquire" project="19362,19501,19521,19573" country="EUEX" operator="ORANGE" euexcountry="ES" />
+  <package name="com.coloros.phonenoareainquire" project="19362,19501,19521,19573" country="EUEX" operator="ORANGE" euexcountry="FR" />
+  <!-- InCallUI不内置外销Orange下西班牙、法国orange子网运营商版本 -->
+  <package name="com.android.incallui" project="19362,19501,19521,19573" country="EUEX" operator="ORANGE" euexcountry="ES" />
+  <package name="com.android.incallui" project="19362,19501,19521,19573" country="EUEX" operator="ORANGE" euexcountry="FR" />
+  <!-- 驾驶不内置外销Orange下西班牙、法国orange子网运营商版本 -->
+  <package name="com.coloros.smartdrive" project="19362,19501,19521,19573" country="EUEX" operator="ORANGE" euexcountry="ES" />
+  <package name="com.coloros.smartdrive" project="19362,19501,19521,19573" country="EUEX" operator="ORANGE" euexcountry="FR" />
+    <!-- 短信不内置外销的墨西哥ATT运营商版本 -->
+  <package name="com.android.mms" project="common" country="MX" operator="ATT" />
+  <!-- 短信不内置外销的日本YMOBILE运营商版本 -->
+  <package name="com.android.mms" project="common" country="JP" operator="YMOBILE" />
+  <!-- 短信不内置外销的英国EE运营商版本 -->
+  <package name="com.android.mms" project="19362,19501,19521,19573" country="EUEX" operator="EE" euexcountry="GB" />
+  <!-- 短信不内置外销的日本KDDI运营商版本 -->
+  <package name="com.android.mms" project="common" country="JP" operator="KDDI" />
+  <!-- 负一屏不内置外销的墨西哥ATT&TELCEL运营商版本 -->
+  <package name="com.coloros.assistantscreen" project="common" country="MX" operator="ATT,TELCEL" />
+   <!-- 数据迁移app不在外销20271,2027C,20273,20221,20211,20202项目内置 -->
+  <package name="com.heytap.datamigration" project="20271,20272,20273,20274,2027A,2027B,2027C,2027D,2027E,20211,20212,20213,20214,20215,20221,20222,20223,20224,20225,20226,20227,20228,20229,20202,20203,20204,20207,20208" country="common" operator="common" />
+  <!-- 悬浮球 不在西欧和日本内置 -->
+  <package name="com.coloros.floatassistant" project="common" country="EUEX,JP" operator="common" />
+</apk_config>

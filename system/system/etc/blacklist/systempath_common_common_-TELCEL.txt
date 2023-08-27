@@ -1,0 +1,2 @@
+/system/app/ClarojuegosTELCEL-20271
+/system/priv-app/SysDLL_TELCEL-20271

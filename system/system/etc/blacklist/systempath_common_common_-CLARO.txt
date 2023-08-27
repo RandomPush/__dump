@@ -1,0 +1,2 @@
+/system/app/ClarojuegosCLARO-20271
+/system/priv-app/SysDLL_CLARO-20271

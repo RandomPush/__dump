@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- These are configurations that must exist on all GMS devices. -->
+<config>
+    <!-- These are the standard packages that are white-listed to always have internet
+         access while in power save mode, even if they aren't in the foreground. -->
+    <!--#ifdef VENDOR_EDIT-->
+    <!-- Xiangfu.Li@PSW.AD.PMS.00,2019/07/31,Add for orange selector -->
+    <app-link package="com.orange.update" />
+    <!-- Ruichang.Liang@AD.CommonSoft, 2020/02/01, Add for sfr doze mode -->
+    <allow-in-power-save package="com.altice.android.myapps" />
+    <allow-in-power-save package="com.sfr.android.sfrjeux" />
+    <!--#endif  VENDOR_EDIT-->
+    <allow-in-power-save package="com.facebook.services" />
+    <allow-in-power-save-except-idle package="com.facebook.appmanager"/>
+
+    <!-- #ifdef VENDOR_EDIT -->
+    <!-- Yugang.Bao@PSW.AD.Thirparts, 2020/08/18, Modify for mx telcel operator -->
+    <allow-in-power-save package=" mx.sitic.simkey" />
+    <allow-in-data-usage-save package=" mx.sitic.simkey" />
+    <system-user-whitelisted-app package=" mx.sitic.simkey" />
+    <!--#endif  VENDOR_EDIT-->
+
+    <!-- #ifdef VENDOR_EDIT -->
+    <!-- Zouxin@PSW.AD.Operator.152337 ,2020/6/29, Add for Sysdll apk Permissions Whitelist -->
+    <system-user-whitelisted-app package="co.sitic.pp" />
+    <!--#endif  VENDOR_EDIT-->
+
+    <!-- #ifdef VENDOR_EDIT -->
+    <!-- Zouxin@PSW.AD.Operator.697610&531126 ,2021/3/26, Add for Start apk Permissions Whitelist -->
+    <system-user-whitelisted-app package="com.celltick.lockscreen" />
+    <!--#endif  VENDOR_EDIT-->
+
+    <!-- #ifdef VENDOR_EDIT -->
+    <!-- Yugang.Bao@PSW.AD.CUSTOMIZE, 2020/08/11, Modify for IN JIO operator -->
+    <allow-implicit-broadcast action="com.slc.action.ACTION_SUBSIDYLOCK_STATE" />
+    <!--#endif  VENDOR_EDIT-->
+</config>

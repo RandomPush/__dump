@@ -1,0 +1,3 @@
+com.google.android.apps.messaging
+com.sfr.android.sfrjeux
+com.altice.android.myapps

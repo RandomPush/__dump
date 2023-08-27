@@ -1,0 +1,5 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+    <feature name="com.google.android.contacts.feature.SIM_WRITE" />
+    <feature name="com.android.providers.contacts.is_need_sdn_contacts" />
+</permissions>

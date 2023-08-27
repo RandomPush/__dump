@@ -1,0 +1,2 @@
+/system/app/AmazonMDIPWIND3-20271
+/system/app/AmazonMDIPATT-20271

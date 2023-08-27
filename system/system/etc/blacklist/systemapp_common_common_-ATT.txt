@@ -1,0 +1,6 @@
+com.netflix.partner.activation
+com.netflix.mediaclient
+com.amazon.appmanager
+com.amazon.mShop.android.shopping
+com.dti.attmx
+com.google.android.apps.messaging

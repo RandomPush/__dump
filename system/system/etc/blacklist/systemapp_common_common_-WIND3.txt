@@ -1,0 +1,4 @@
+com.ebay.carrier
+tv.chili.companion.android
+com.ironsource.appcloud.oobe.hutchison
+com.amazon.appmanager

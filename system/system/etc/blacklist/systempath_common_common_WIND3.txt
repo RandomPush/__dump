@@ -1,0 +1,2 @@
+/system/app/AmazonMDIPATT-20271
+/system/app/AmazonMDIPTIM-20271

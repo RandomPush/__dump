@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><config>
+  <!-- #ifdef VENDOR_EDIT -->
+  <!-- WeiDong.Cao@PSW.AD.Operator,2020/11/04, Add for com.claroColombia.contenedor -->
+  <allow-in-power-save package="com.claroColombia.contenedor"/>
+  <app-link package="com.claroColombia.contenedor"/>
+  <!-- #endif //VENDOR_EDIT -->
+</config>

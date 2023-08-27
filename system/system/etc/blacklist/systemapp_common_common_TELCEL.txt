@@ -1,0 +1,4 @@
+com.google.android.apps.googleassistant
+com.google.android.apps.walletnfcrel
+com.google.android.dialer
+com.google.android.contacts

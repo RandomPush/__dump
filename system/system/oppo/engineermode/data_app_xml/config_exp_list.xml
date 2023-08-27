@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<apk_config>
+  <!--该xml适用于外销OS data下的应用内置，package name为包名，path为应用内置到手机/data/app下面的路径名，project、country、operator分别表示该应用适用于哪些项目、国家、运营商，示例如下-->
+  <!--package name="com.example.test" path="ExampleTest" project="17001,17002" country="-TW,-IN" operator="common" 表明要内置到/data/app/ExampleTest的应用，只在17001和17002两个项目，除台湾和印度区域内置，负号表示非,common表示通用-->
+  <!--注：如果应用已经不再内置了请及时去掉或注释掉名单，否则会导致产线911过不了-->
+  <!-- OneKeyLockScreen -->
+  <package name="com.coloros.onekeylockscreen" path="OneKeyLockScreen" project="common" country="common" operator="-SOFTBANK,-YMOBILE" />
+  <!-- 录屏 -->
+  <package name="com.coloros.screenrecorder" path="ColorScreenRecorder" project="common" country="common" operator="common" />
+  <!-- OppoPods -->
+  <package name="com.coloros.oppopods" path="OppoPods" project="common" country="common" operator="common" />
+  <!-- GameSpaceUI -->
+  <package name="com.coloros.gamespaceui" path="GameSpaceUI" project="common" country="common" operator="common" />
+  <!-- 即录（视频编辑器） -->
+  <package name="com.coloros.videoeditor" path="OppoVideoEditor" project="-2027A,-2027B,-2027C,-2027D,-2027E,-202A1,-202A2,-202A3" country="common" operator="-YMOBILE" />
+  <!-- 邮件 -->
+  <package name="com.android.email" path="Email" project="-17085,-17088,-17109,-17129,-17139,-17199,-17337,-17338,-17339,-17340,-17341,-18311,-18312,-18313,-18317,-18328,-18381,-18385,-18397,-18501,-18503,-18525,-18531,-18532,-18533,-18539,-18561,-18562,-18563,-18569,-18593,-19301,-19305,-19321,-19322,-19323,-19325,-19326,-19327,-19328,-19329,-19331,-19340,-19341,-19342,-19343,-19350,-19352,-19355,-19531,-19532,-19533,-19570,-19571,-19572,-19573,-19575,-19576,-19577,-19578,-19579" country="-JP" operator="-VODAFONE_EEA,-VODAFONE_NONEEA,-CPW,-OPTUS,-OPTUS_PREPAID,-OPTUS_POSTPAID,-ATT,-TELCEL" lightOS="false" />
+  <!-- heyrelax -->
+  <package name="com.coloros.relax" path="OppoRelax" project="-20211,-20212,-20213,-20214,-20215,-20221,-20222,-20223,-20224,-20225,-20226,-20227,-20228,-20229,-20202,-20203,-20204,-20207,-20208,-20271,-20272,-20273,-20274,-2027A,-2027B,-2027C,-2027D,-2027E" country="common" operator="-SOFTBANK,-YMOBILE" />
+  <!-- 金融印度钱包内置：印度 -->
+  <package name="com.finshell.fin" path="FinShellPay" project="common" country="IN" operator="common" />
+  <!-- DocVault -->
+  <package name="com.os.docvault" path="DocVault" project="common" country="IN" operator="common" />
+  <!--google gms app -->
+  <package name="com.google.android.apps.docs" path="com.google.android.apps.docs-9" project="common" country="common" operator="common" />
+  <package name="com.google.android.apps.photos" path="com.google.android.apps.photos-9" project="common" country="common" operator="common" />
+  <package name="com.google.android.apps.tachyon" path="com.google.android.apps.tachyon-9" project="common" country="common" operator="common" />
+  <package name="com.google.android.videos" path="com.google.android.videos-9" project="common" country="common" operator="common" />
+  <package name="com.google.android.apps.youtube.music" path="com.google.android.apps.youtube.music-9" project="common" country="common" operator="common" />
+ 
+  <!--加空黑名单覆盖p版本黑名单 -->
+  <package name="NULL" path="NULL" project="-18531,-18561,-18562,-18563,-18566,-18567,-19301,-18311,-18312,-18313,-18317,-18328,-19321,-19322,-19323,-19325,-19326,-19327,-19328,-19329" country="common" operator="common" />
+  <!-- oppo lab:去除香港，台湾，墨西哥, 欧盟，澳大利亚，新西兰，南非，日本，运营商SGOP,SINGTEL,STARHUB,M1,TPG,MyRepublic,MYOP,CELCOM,MAXIS,DIGI,TRUE,SMART,GLOBE,SMART_RETAILER,SAFARICOM -->
+  <package name="com.heytap.lab" path="OLab" project="common" country="-EUEX,-HK,-TW,-AU,-NZ,-ZA,-JP,-MX" operator="-SGOP,-SINGTEL,-STARHUB,-M1,-TPG,-MyRepublic,-MYOP,-CELCOM,-MAXIS,-DIGI,-TRUE,-SMART,-GLOBE,-SMART_RETAILER,-SAFARICOM" reserve="true" lightOS="false" />
+    <!-- AR测量 -->
+  <package name="com.coloros.aruler" path="OppoARuler" project="18385" country="common" operator="common" />
+</apk_config>

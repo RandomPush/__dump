@@ -1,0 +1,6 @@
+com.gameloft.android.gdc
+co.sitic.pp
+com.speedymovil.wire
+com.telcel.contenedor
+com.google.android.apps.messaging
+com.facebook.orca

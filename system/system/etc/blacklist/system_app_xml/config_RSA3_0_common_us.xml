@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<apk_config>
+  <!--if support RSA3.0 -->
+  <!--google -->
+  <package name="com.google.android.contacts" project="20271,20272,20273,20274,20278,20279,2027A,2027B,2027C,2027D,2027E,202A1,202A2,202A3" country="RU,ID,MY,PH,TH,VN,IN" operator="common" />
+  <package name="com.google.android.dialer" project="20271,20272,20273,20274,20278,20279,2027A,2027B,2027C,2027D,2027E,202A1,202A2,202A3" country="RU,ID,MY,PH,TH,VN,IN" operator="common" />
+  <package name="com.google.android.apps.messaging" project="common" country="RU,ID,MY,PH,TH,VN" operator="common" />
+  <package name="com.google.android.ims" project="common" country="RU,ID,MY,PH,TH,VN" operator="common" />
+  <!--google pay -->
+  <package name="com.google.android.apps.walletnfcrel" project="common" country="RU,IN" operator="common" />
+  <package name="com.google.android.apps.nbu.paisa.user" project="common" country="-IN" operator="common" />
+  <!--google -->
+  <package name="com.google.android.apps.googleassistant" project="common" country="RU" operator="common" />
+  <package name="com.google.android.apps.photos" project="common" country="RU" operator="common" />
+
+  <!--for TR -->
+  <package name="com.google.android.contacts" project="common" country="EUEX" operator="common" euexcountry="TR" />
+  <package name="com.google.android.dialer" project="common" country="EUEX" operator="common" euexcountry="TR" />
+  <package name="com.google.android.apps.messaging" project="common" country="EUEX" operator="common" euexcountry="TR" />
+  <package name="com.google.android.ims" project="common" country="EUEX" operator="common" euexcountry="TR" />
+
+  <!--google pay -->
+  <package name="com.google.android.apps.walletnfcrel" project="common" country="EUEX" operator="common" euexcountry="TR" />
+  <package name="com.google.android.apps.googleassistant" project="common" country="EUEX" operator="common" euexcountry="TR" />
+  <package name="com.google.android.apps.photos" project="common" country="EUEX" operator="common" euexcountry="TR" />
+  <package name="com.google.ar.lens" project="common" country="EUEX" operator="common" euexcountry="TR" />
+
+  <package name="com.google.android.contacts" project="common" country="common" operator="CLARO" />
+  <package name="com.google.android.dialer" project="common" country="common" operator="CLARO" />
+  <package name="com.google.android.apps.walletnfcrel" project="common" country="common" operator="CLARO" />
+  <package name="com.google.android.apps.nbu.files" project="common" country="common" operator="CLARO,TELCEL" />
+</apk_config>

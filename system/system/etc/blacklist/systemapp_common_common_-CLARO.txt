@@ -1,0 +1,4 @@
+com.gameloft.android.gdc
+co.sitic.pp
+com.claroColombia.contenedor
+com.facebook.orca

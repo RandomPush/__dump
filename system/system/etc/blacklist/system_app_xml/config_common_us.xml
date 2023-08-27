@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<apk_config>
+  <!--if not support RSA3.0 -->
+  <!--google -->
+  <package name="com.google.android.contacts" project="common" country="common" operator="-ORANGE,-VODAFONE,-VODAFONE_EUEX,-VODAFONE_EEA,-VODAFONE_NONEEA,-VODAFONE_POSTPAID,-VODAFONE_PREPAID" />
+  <package name="com.google.android.dialer" project="common" country="common" operator="-ORANGE,-VODAFONE,-VODAFONE_EUEX,-VODAFONE_EEA,-VODAFONE_NONEEA,-VODAFONE_POSTPAID,-VODAFONE_PREPAID" />
+  <package name="com.google.android.apps.messaging" project="common" country="common" operator="-VODAFONE,-VODAFONE_EUEX,-VODAFONE_EEA,-VODAFONE_NONEEA,-VODAFONE_POSTPAID,-VODAFONE_PREPAID,-ORANGE,-TELCEL,-CPW,-MOVISTAR,-ALTICE,-EE,-ATT" />
+  <package name="com.google.android.ims" project="common" country="common" operator="-VODAFONE,-VODAFONE_EUEX,-VODAFONE_EEA,-VODAFONE_NONEEA,-VODAFONE_POSTPAID,-VODAFONE_PREPAID,-ORANGE,-TELCEL,-CPW" />
+  <!--google pay -->
+  <package name="com.google.android.apps.walletnfcrel" project="common" country="common" operator="-TELSTRA_POSTPAID" />
+  <package name="com.google.android.apps.nbu.paisa.user" project="common" country="common" operator="common" />
+  <!--google -->
+  <package name="com.google.android.apps.googleassistant" project="common" country="common" operator="common" />
+  <package name="com.google.android.apps.photos" project="common" country="common" operator="common" />
+  <package name="com.google.ar.lens" project="common" country="common" operator="common" />
+  <package name="com.google.android.apps.nbu.files" project="common" country="common" operator="CLARO,TELCEL" />
+</apk_config>

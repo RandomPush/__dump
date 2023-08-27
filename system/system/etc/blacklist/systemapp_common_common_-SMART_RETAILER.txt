@@ -1,0 +1,4 @@
+ph.com.smart.retailer
+com.meralco.phone.move
+apps.smsgt.com.mvpapp
+com.paymaya
